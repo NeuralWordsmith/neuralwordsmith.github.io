@@ -22,10 +22,12 @@ jobs:
         run: npm install
 
       - name: Build Project
-        run: CI=false npm run build
+        run: CI=false npm run build  # Prevents warnings from stopping deployment
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           publish_dir: ./build  # This is the default output folder for React builds
+          publish_branch: gh-pages  # Ensures correct deployment branch
+          force_orphan: true  # Prevents conflicts from previous builds
