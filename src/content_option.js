@@ -217,11 +217,11 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/shljessie",
+    github: "https://github.com/NeuralWordsmith",
     facebook: "https://facebook.com",
     scholar: "https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en",
-    linkedin: "https://www.linkedin.com/in/seonghee-lee/",
-    twitter: "https://twitter.com",
+    linkedin: "https://www.linkedin.com/in/deepictd/",
+    twitter: "https://x.com/deepansh_gulati",
 };
 export {
     meta,
