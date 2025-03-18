@@ -47,7 +47,7 @@ export const Home = () => {
                 </h6> 
                 */}
 
-                <p style={{fontSize:"small"}}>You can clone and use this website from <a href="https://github.com/shljessie/shljessie.github.io" target="_blank">my GitHub</a></p>
+              
 
                 <br/>
                 <p className="mb-1x"> Hello! :) I'm Deepansh, a second-year <b>Computer Science (MS) student @Stanford University</b>. <br></br>
