@@ -9,7 +9,7 @@ import { Projects } from "../projects";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import bunnyIcon from '../../assets/images/icon.jpg';
-import shlImage from '../../assets/images/microsoft_headshot.png';
+import shlImage from '../../assets/images/deepansh_profile.jpg';
 
 export const Home = () => {
   return (
