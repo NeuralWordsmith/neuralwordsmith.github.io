@@ -9,7 +9,7 @@ import { Projects } from "../projects";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import bunnyIcon from '../../assets/images/icon.jpg';
-import profileImage from '../../assets/images/deepansh_profile1.jpg';
+import profileImage from '../../assets/images/deepansh_profile.jpg';
 
 export const Home = () => {
   return (
@@ -27,7 +27,7 @@ export const Home = () => {
               <div className="intro mx-auto">
                <img width="700px" alt="" src={profileImage} />
                 <h2 className="mb-1x">{introdata.title}</h2>
-                <p><a href="mailto:shlee@cs.stanford.edu">shlee@cs.stanford.edu</a></p>
+                <p><a href="deepansh_gulati@icloud.com">deepansh_gulati@icloud.com</a></p>
 
                 {/* 
                 Commenting out typewriter effect
