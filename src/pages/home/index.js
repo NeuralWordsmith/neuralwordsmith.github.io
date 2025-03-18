@@ -9,7 +9,7 @@ import { Projects } from "../projects";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import bunnyIcon from '../../assets/images/icon.jpg';
-import shlImage from '../../assets/images/deepansh_profile.jpg';
+import profileImage from '../../assets/images/deepansh_profile1.jpg';
 
 export const Home = () => {
   return (
@@ -25,7 +25,7 @@ export const Home = () => {
             <div className="align-self-center ">
             <br/>                <br/>
               <div className="intro mx-auto">
-               <img width="500px" alt="" src={shlImage} />
+               <img width="500px" alt="" src={profileImage} />
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <p><a href="mailto:shlee@cs.stanford.edu">shlee@cs.stanford.edu</a></p>
 
