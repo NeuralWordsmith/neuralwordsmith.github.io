@@ -25,7 +25,7 @@ export const Home = () => {
             <div className="align-self-center ">
             <br/>                <br/>
               <div className="intro mx-auto">
-               <img width="500px" alt="" src={profileImage} />
+               <img width="300px" alt="" src={profileImage} />
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <p><a href="mailto:shlee@cs.stanford.edu">shlee@cs.stanford.edu</a></p>
 
