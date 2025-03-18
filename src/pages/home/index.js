@@ -50,7 +50,7 @@ export const Home = () => {
                 <p style={{fontSize:"small"}}>You can clone and use this website from <a href="https://github.com/shljessie/shljessie.github.io" target="_blank">my GitHub</a></p>
 
                 <br/>
-                <p className="mb-1x"> Hello! :) I'm Seonghee, a second-year <b>Computer Science (MS) student @Stanford University</b>. <br></br>
+                <p className="mb-1x"> Hello! :) I'm Deepansh, a second-year <b>Computer Science (MS) student @Stanford University</b>. <br></br>
                 I am advised by <a href=""><b>Professor Diyi Yang</b></a> (Stanford NLP) and <a href="https://haridecoded.com/"><b>Professor Hari Subramonyam</b></a> (Stanford HCI).<br></br> 
                 I have also worked at <b>Microsoft Research</b> on Multimodal Agent Interaction in Open Spaces—Project Transcendence (HCAIX)
                 under the guidance of Kori Inkpen, John Tang, Asta Roseway, and Sasa Junuzovic. <br></br><br></br>
