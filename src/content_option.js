@@ -5,7 +5,7 @@ const meta = {
 };
 
 const introdata = {
-    title: "Seonghee Lee",
+    title: "Deepansh Gulati",
     animated: {
         first: "Human AI Interaction",
         second: "Applied Machine Learning",
