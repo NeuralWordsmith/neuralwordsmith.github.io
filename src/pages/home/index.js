@@ -58,7 +58,7 @@ export const Home = () => {
                 web development, backend infrastructure, and programming. <br></br>
                 I really like gitHub's design, Apple's WWDC conferences, and learning more about developing accessible technology.</p>
                 <div className="intro_btn-action pb-5">
-                  <a href="https://drive.google.com/file/d/1R3HEipS15I9qAyvodmtpF8BQYJRvdOoJ/view?usp=sharing">                  
+                  <a href="https://docs.google.com/document/d/1XbmaukMM6R9yc1CCFBwmVd3LpPyG0Kb0awab1N_Kv0k/edit?usp=sharing">                  
                     <div id="button_h" className="ac_btn btn">
                       Resume
                       <div className="ring one"></div>
