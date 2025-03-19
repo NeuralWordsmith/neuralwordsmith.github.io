@@ -1,6 +1,6 @@
-const logotext = "Seonghee Lee";
+const logotext = "Deepansh Gulati";
 const meta = {
-    title: "Seonghee Lee",
+    title: "Deepansh Gulati",
     description: "I'm Seonghee Lee a Master's student at Stanford studying Computer Science.",
 };
 
