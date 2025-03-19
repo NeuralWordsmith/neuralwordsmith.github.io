@@ -206,7 +206,7 @@ const projectportfolio = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "shl1027@stanford.edu",
+    YOUR_EMAIL: "deepansh_gulati@icloud.com",
     YOUR_FONE: "-",
     description: "- ",
     // creat an emailjs.com account 
@@ -219,7 +219,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com/NeuralWordsmith",
     facebook: "https://facebook.com",
-    scholar: "https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en",
+    scholar: "https://scholar.google.com/",
     linkedin: "https://www.linkedin.com/in/deepictd/",
     twitter: "https://x.com/deepansh_gulati",
 };
