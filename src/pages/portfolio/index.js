@@ -25,7 +25,7 @@ export const Portfolio = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h3>📚 Selected Publications </h3>{" "}
+            <h3>📋 Recent Projects </h3>{" "}
             
           </Col>
         </Row>
