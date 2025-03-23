@@ -50,13 +50,9 @@ export const Home = () => {
               
 
                 <br/>
-                <p className="mb-1x"> Hello! :) I'm Deepansh,   I work where tokens meet tensors. My focus lies in bridging human intent with machine understanding — through models that not only parse, but truly contextualize. <br /><br />
+                <p className="mb-1x"> Hello! :) I'm Deepansh,   I work where tokens meet tensors. My focus lies in bridging human intent with machine understanding — through models that not only parse, but truly contextualize. I spend most of my time optimizing pipelines, fine-tuning transformers, and exploring the edges of generalization. My current interest lies in aligning large language models to nuanced real-world tasks — from zero-shot classification to embedding-based retrieval systems. <br /><br />
 
-                I spend most of my time optimizing pipelines, fine-tuning transformers, and exploring the edges of generalization. My current interest lies in aligning large language models to nuanced real-world tasks — from zero-shot classification to embedding-based retrieval systems. <br /><br />
-
-                I write code like I design systems: modular, reproducible, and always with observability in mind. If it's not traceable or testable, it's not real. <br /><br />
-
-                Whether it’s multi-head attention or infrastructure bottlenecks, I enjoy solving problems where abstraction meets execution.
+                I write code like I design systems: modular, reproducible, and always with observability in mind. If it's not traceable or testable, it's not real. Whether it’s multi-head attention or infrastructure bottlenecks, I enjoy solving problems where abstraction meets execution.
                 </p>
                 <div className="intro_btn-action pb-5">
                   <a href="https://docs.google.com/document/d/1XbmaukMM6R9yc1CCFBwmVd3LpPyG0Kb0awab1N_Kv0k/edit?usp=sharing">                  
