@@ -50,13 +50,14 @@ export const Home = () => {
               
 
                 <br/>
-                <p className="mb-1x"> Hello! :) I'm Deepansh, a second-year <b>Computer Science (MS) student @Stanford University</b>. <br></br>
-                I am advised by <a href=""><b>Professor Diyi Yang</b></a> (Stanford NLP) and <a href="https://haridecoded.com/"><b>Professor Hari Subramonyam</b></a> (Stanford HCI).<br></br> 
-                I have also worked at <b>Microsoft Research</b> on Multimodal Agent Interaction in Open Spaces—Project Transcendence (HCAIX)
-                under the guidance of Kori Inkpen, John Tang, Asta Roseway, and Sasa Junuzovic. <br></br><br></br>
-                I have experience in machine learning, particularly in fine-tuning and training large-scale vision and language models,
-                web development, backend infrastructure, and programming. <br></br>
-                I really like gitHub's design, Apple's WWDC conferences, and learning more about developing accessible technology.</p>
+                <p className="mb-1x"> Hello! :) I'm Deepansh,   I work where tokens meet tensors. My focus lies in bridging human intent with machine understanding — through models that not only parse, but truly contextualize. <br /><br />
+
+                I spend most of my time optimizing pipelines, fine-tuning transformers, and exploring the edges of generalization. My current interest lies in aligning large language models to nuanced real-world tasks — from zero-shot classification to embedding-based retrieval systems. <br /><br />
+
+                I write code like I design systems: modular, reproducible, and always with observability in mind. If it's not traceable or testable, it's not real. <br /><br />
+
+                Whether it’s multi-head attention or infrastructure bottlenecks, I enjoy solving problems where abstraction meets execution.
+                </p>
                 <div className="intro_btn-action pb-5">
                   <a href="https://docs.google.com/document/d/1XbmaukMM6R9yc1CCFBwmVd3LpPyG0Kb0awab1N_Kv0k/edit?usp=sharing">                  
                     <div id="button_h" className="ac_btn btn">
