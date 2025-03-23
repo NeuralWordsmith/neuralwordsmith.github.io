@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { dataportfolio, meta } from "../../content_option";
 
 import React from "react";
+import trafficRoute from "../../assets/project/trafficRoute.png";
 import altCanvas from "../../assets/research/altCanvas.png";
 import cs224s from "../../assets/research/cs224s.png";
 import h2o from "../../assets/research/h2o.png";
@@ -55,7 +56,16 @@ export const Portfolio = () => {
                         {data.project && ' | '}
                       </>
                     )}
-                    {data.project && <a className="d" href={data.project}>Project Code</a>}
+                    {data.moreinfo && (
+                      <>
+                        <a className="d" href={data.moreinfo}>More Info</a>
+                        {data.project && ' | '}
+                      </>
+                    )}
+                    {data.project && (
+                      <>
+                        <a className="d" href={data.project}>Project Code</a>
+                        {data.project && ' | '}
                   </div>
                   
                 </div>

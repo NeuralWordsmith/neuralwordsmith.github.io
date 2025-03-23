@@ -120,13 +120,12 @@ const researchexperience = [{
 
 const dataportfolio = [
     {
-        img: "altCanvas",
-        title: "AltCanvas: A Tile-Based Image Editor with Generative AI for Blind or Visually Impaired People",
-        authors: "Seonghee Lee, Maho Kohga, Steve Landau, Sile O'Modhrain, Hari Subramonyam",
-        conference: "ACM SIGACCESS Conference on Computers and Accessibility, ASSETS 2024",
-        doi:"https://doi.org/10.48550/arXiv.2408.10240",
-        video:"https://www.youtube.com/watch?v=tJUqjjwSxPs",
-        project:"https://shljessie.github.io/AltCanvas/",
+        img: "trafficRoute",
+        title: "Traffic Route Optimizer: Simulating Efficient Urban Mobility Using Graph Algorithms",
+        authors: "Deepansh Gulati",
+        conference: "Pathfinding simulation using Dijkstra and A* algorithms with real-world route scenarios",
+        moreinfo: "https://yourprojectsite.com",
+        project:"https://github.com/NeuralWordsmith/Traffic-Route-Optimizer",
         code:"coming soon",
     },
     {
