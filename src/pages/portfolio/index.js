@@ -14,7 +14,7 @@ import teachyou from "../../assets/research/teachyou.png";
 
 export const Portfolio = () => {
 
-  var imglist=[altCanvas, cs224s, teachyou, multi]
+  var imglist=[trafficRoute, altCanvas, cs224s, teachyou, multi]
   return (
     <HelmetProvider>
       <Container className="About-header">
