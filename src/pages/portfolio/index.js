@@ -67,6 +67,7 @@ export const Portfolio = () => {
                         <a className="d" href={data.project}>Project Code</a>
                         {data.project && ' | '}
                       </>
+                    )}
                   </div>
                   
                 </div>
