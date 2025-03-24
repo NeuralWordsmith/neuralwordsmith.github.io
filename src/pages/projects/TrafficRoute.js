@@ -25,7 +25,7 @@ export const TrafficRoute = () => {
         <title>Traffic Route Optimizer | Deepansh</title>
         </Helmet>
         <div className="markdown-body">
-        {error ? <p>Error loading README.</p> : <ReactMarkdown>{markdown}</ReactMarkdown>}
+        <ReactMarkdown>{markdown}</ReactMarkdown>}
         </div>
         </HelmetProvider>
     );

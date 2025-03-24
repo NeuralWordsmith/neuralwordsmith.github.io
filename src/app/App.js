@@ -11,6 +11,8 @@ import AnimatedCursor  from "../hooks/AnimatedCursor";
 import AppRoutes from "./routes";
 import Headermain from "../header";
 import withRouter from "../hooks/withRouter";
+import 'github-markdown-css/github-markdown-light.css';
+
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
