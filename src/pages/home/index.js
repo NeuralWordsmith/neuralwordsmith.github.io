@@ -27,7 +27,7 @@ export const Home = () => {
               <div className="intro mx-auto">
                <img width="900px" alt="" src={profileImage} />
                 <h2 className="mb-1x">{introdata.title}</h2>
-                <p><a href="deepansh_gulati@icloud.com">deepansh_gulati@icloud.com</a></p>
+                <p><a href="mailto:deepansh_gulati@icloud.com">deepansh_gulati@icloud.com</a></p>
 
                 {/* 
                 Commenting out typewriter effect
