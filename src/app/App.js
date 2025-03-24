@@ -34,19 +34,20 @@ export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
     <div className="cursor__dot">
-        <AnimatedCursor
-          innerSize={15}
-          outerSize={15}
-          color="#B9D9EB"
-          outerAlpha={0.4}
-          innerScale={0.7}
-          outerScale={5}
-        />
-      </div>
-      <ScrollToTop>
-        <Headermain />
-        <AppRoutes />
-      </ScrollToTop>
+    <AnimatedCursor
+    innerSize={15}
+    outerSize={15}
+    color="#B9D9EB"
+    outerAlpha={0.4}
+    innerScale={0.7}
+    outerScale={5}
+    />
+    </div>
+    <ScrollToTop>
+    <Headermain />
+    <AppRoutes />
+    </ScrollToTop>
     </Router>
   );
+
 }
