@@ -17,3 +17,5 @@ dist/
 node_modules/
 .cache/
 *.pack
+node_modules/
+*.pack
