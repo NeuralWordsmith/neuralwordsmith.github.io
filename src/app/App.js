@@ -22,6 +22,15 @@ function _ScrollToTop(props) {
 const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const redirectPath = params.get("redirect");
+
+    if (redirectPath && window.location.pathname === "/") {
+      window.history.replaceState({}, "", redirectPath);
+    }
+  }, []);
+
   return (
     <Router basename={process.env.PUBLIC_URL}>
     <div className="cursor__dot">
