@@ -41,13 +41,27 @@
     }
 }
 
+/* Override GitHub Markdown default styles */
 .markdown-body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 2rem 1rem;
     max-width: 900px;
     margin: 0 auto;
-    padding: 2rem;
-    background: white;
-    color: #000;
+    box-shadow: none;
+    border: none;
+}
+
+/* Optional: Match headings to your theme */
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+    font-family: "Marcellus", serif;
+    color: var(--heading-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
