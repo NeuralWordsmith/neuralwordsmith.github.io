@@ -124,7 +124,7 @@ const dataportfolio = [
         title: "Traffic Route Optimizer: Simulating Efficient Urban Mobility Using Graph Algorithms",
         authors: "Deepansh Gulati",
         conference: "Pathfinding simulation using Dijkstra and A* algorithms with real-world route scenarios",
-        moreinfo: "https://yourprojectsite.com",
+        moreinfo: "/projects/traffic-route-optimizer",
         project:"https://github.com/NeuralWordsmith/Traffic-Route-Optimizer",
         code:"coming soon",
     },
