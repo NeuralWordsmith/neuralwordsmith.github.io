@@ -6,7 +6,6 @@ import {
   awards,
   dataabout,
   meta,
-  researchexperience,
   services,
   workexperience,
   worktimeline,
@@ -41,7 +40,7 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Timeline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -58,26 +57,11 @@ export const About = () => {
               </tbody>
             </table>
           </Col>
-        </Row>
-        <Row className="sec_sp">
-        <Col lang="5">
-          <h3 className="color_sec py-4">Research Experience</h3>
-        </Col>
-        <Col lg="7">
-          {researchexperience.map((data, i) => {
-            return (
-              <div className="service_ py-4" key={i}>
-                <h5 className="service__title">{data.title}</h5>
-                <p className="service_desc">{data.period}</p>
-                <p className="service_desc">{data.description}</p>
-              </div>
-            );
-          })}
-        </Col>
-      </Row>
+          </Row>
+          {/*
       <Row className="sec_sp">
       <Col lang="5">
-        <h3 className="color_sec py-4">Work Experience</h3>
+        <h3 className="color_sec py-4">Work</h3>
       </Col>
       <Col lg="7">
         {workexperience.map((data, i) => {
@@ -106,7 +90,7 @@ export const About = () => {
               );
             })}
           </Col>
-        </Row>
+        </Row> //
         <Row className="sec_sp">
         <Col lang="5">
           <h3 className="color_sec py-4">Awards & Grants</h3>
@@ -121,7 +105,7 @@ export const About = () => {
             );
           })}
         </Col>
-      </Row>
+      </Row>*/}
       </Container>
     </HelmetProvider>
   );

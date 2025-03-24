@@ -30,7 +30,7 @@ export const Projects = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h3>💿 Software & Tools </h3>{" "}
+            <h3>💿 Softwares & Tools </h3>{" "}
           </Col>
         </Row>
         <div className="">
@@ -39,7 +39,7 @@ export const Projects = () => {
             return (
               <div key={i} className="researchBox">
                 <div>
-                <img class="img_research" src={imglist[i]} alt="d"></img>
+                {/*<img class="img_research" src={imglist[i]} alt="d"></img>*/}
                 </div>
                 <div className="description">
                   <h5>{data.title}</h5>

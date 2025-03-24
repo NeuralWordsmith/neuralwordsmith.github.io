@@ -19,15 +19,21 @@ const dataabout = {
     title: "Research Interests",
     aboutme: "My research is primarily focused on the development of AI tools for communities, specifically exploring the implementation of LLM agents with model-level interactions or user-centered evaluations. I aim to create tools that embrace social consciousness, beyond considerations of model precision and performance.",
 };
-const worktimeline = [{
-        jobtitle: "Stanford University",
-        where: "Computer Science (MS)",
-        date: "Sep 2023 - June 2025",
+const worktimeline = [
+    {
+        jobtitle: "UPES",
+        where: "Human-Computer Interaction Design (BS)",
+        date: "April 2020 - Nov 2024",
     },
     {
-        jobtitle: "Cornell University",
-        where: "Information Science (BS)",
-        date: "Sep 2019 - Dec 2022",
+        jobtitle: "Sacred Heart Convent School",
+        where: "Primary & Secondory school",
+        date: "April 2006 - March 2020",
+    },
+    {
+        jobtitle: "Birth",
+        where: "India",
+        date: "Oct 2002 - Present"
     },
 ];
 
@@ -85,38 +91,13 @@ const awards = [{
 ];
 
 const workexperience = [{
-    title: "[Motional] Robotics Research Engineer",
-    period:"Sep 2022 - Dec 2022",
-    description: "Research on identification of Autonomous Vehicle Lane Change key parameters and metrics in dynamic road environments interacting with other agents. Published and first authored 2 papers to ACM/IEEE HRI 2023",
-},
-{
-    title: "[Harvard Berkman Klein Center] Software Engineer",
-    period:"May 2023 - August 2023",
-    description: "Developed Software for dynamic text annotation and page navigation on H2O, an open-casebook platform (React, Django). Conducted Research on Digital Reading Interaction Software and published paper to ACM/IEEE CHI 2023",
-},
-{
-    title: "[Cochl. AI] Software Engineer",
-    period:"Nov 2020 - Feb 2021 ",
-    description: "Integrated non-verbal sound recognition AI into Mercedes Benz User Interface. Full-stack development using React, Javascript, SocketIO, Docker. Developed and demonstrated a working prototype of Emotional Sound Recognition within Benz Cars to the Mercedes Benz Team - Presentation at Benz conference in Germany",
+    title: "Freelance",
+    period:"Remote",
+    description: "Open for contract roles.",
 },
 ];
 
-const researchexperience = [{
-    title: "KIXLab (Prof. Juho Kim) - Generative Agents for Programming",
-    period:"June 2023 - ",
-    description: "Developed a LLM Teachable Agent (Algobo) for Programming Education. Developed prompting techniques for Knowledge State Configuration and conducted LLM Agent Evaluation on different knowledge states. Submitted to CHI 2024",
-},
-{
-    title: "CMU Safe AI Lab - Multimodal ML Research",
-    period:"Jan 2023 - March 2023 ",
-    description: "Conducted lectures on Neural Networks, Computer Vision, Deep Learning, Reinforcement Learning and helped highschool students work on programming ML Models",
-},
-{
-    title: "Stanford Empirical Security Research Group (ESRG)",
-    period:"June 2023 - ",
-    description: "Perceived Harm Research through an extension that collects user viewed comments on Reddit. Full Stack Development of website that processes user comments, labels toxicity scores and generates survey pairs. Parallel processing of comments, data mangagement and storage, web security. ",
-},
-];
+;
 
 const dataportfolio = [
     {
@@ -153,18 +134,33 @@ const dataportfolio = [
 
 const projectportfolio = [
     {
-        title: "DarakBooks - LLM based Book Recommendation",
-        description: "Backend Development of LLM Based Book Recommendation API, User Book Club Groups API - Typescript, Nestjs, Swagger",
-        github: "https://github.com/darakbooks-project/darakbooks-BE",
-        website: "https://darakbooks.vercel.app/onboarding"
+        title: "• Programming Languages:",
+        description: "- Python, JavaScript, Bash",
     },
     {
-        title: "Perceived Harm Reddit - Stanford ESRG",
-        description: "Fullstack Development of Reddit Survey through using a chrome extension to scrape user comments, analyze scores through Perspective and Generative survey questions. Parallel Processing, Serverside development Django",
-        github: "https://github.com/shljessie/RedditSurvey",
-        website: "http://reddit.esrg.stanford.edu/"
+        title: "• AI / ML / NLP:",
+        description: "scikit-learn, TensorFlow, PyTorch, spaCy, HuggingFace Transformers",
     },
-
+    {
+        title: "• Development Tools:",
+        description: "Kate, Git & GitHub, VS Code, Jupyter Notebook",
+    },
+    {
+        title: "• Testing & Linting:",
+        description: "pytest, black, flake8",
+    },
+    {
+        title: "• Data Handling",
+        description: "Pandas, NumPy, Matplotlib, Seaborn, osmnx",
+    },
+    {
+        title: "• Documentation & Markdown",
+        description: "Obsidian, Markdown, GitHub README",
+    },
+    {
+        title: "• Deployment",
+        description: "GitHub Pages",
+    },
 ];
 
 const contactConfig = {
@@ -189,7 +185,6 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    researchexperience,
     workexperience,
     worktimeline,
     services,
