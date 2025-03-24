@@ -56,9 +56,9 @@ export const Portfolio = () => {
                         {data.project && ' | '}
                       </>
                     )}
-                    {data.moreinfo && (
+                    {data.github && (
                       <>
-                        <a className="d" href={data.moreinfo}>More Info</a>
+                        <a className="d" href={data.github}>Github</a>
                         {data.project && ' | '}
                       </>
                     )}
@@ -76,7 +76,7 @@ export const Portfolio = () => {
   
           })}
         </div>
-        <p style={{marginBottom: '40px'}}> .......etc.   For more publications, please visit my <a href="https://scholar.google.com/citations?user=POepUzkAAAAJ&hl=en"> Google Scholar </a></p>
+        <p style={{marginBottom: '40px'}}> .......etc.   For more projects, please visit my <a href="https://github.com/NeuralWordsmith"> Github </a></p>
       </Container>
     </HelmetProvider>
   );

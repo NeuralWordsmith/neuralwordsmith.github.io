@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.16fe37e5.css",
+    "main.css": "/static/css/main.0963531b.css",
     "main.js": "/static/js/main.e0981cd5.js",
     "static/media/trafficRoute.png": "/static/media/trafficRoute.256f0f90799e9d3575c3.png",
     "static/media/carpoint.png": "/static/media/carpoint.de20f0a1e4d9b24bea2a.png",
@@ -21,11 +21,11 @@
     "static/media/deepansh_profile.jpg": "/static/media/deepansh_profile.dce459cb616f3f763f9e.jpg",
     "index.html": "/index.html",
     "static/media/blob.svg": "/static/media/blob.16a350fbde67ed07a10c.svg",
-    "main.16fe37e5.css.map": "/static/css/main.16fe37e5.css.map",
+    "main.0963531b.css.map": "/static/css/main.0963531b.css.map",
     "main.e0981cd5.js.map": "/static/js/main.e0981cd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.16fe37e5.css",
+    "static/css/main.0963531b.css",
     "static/js/main.e0981cd5.js"
   ]
 }

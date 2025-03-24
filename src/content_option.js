@@ -123,34 +123,31 @@ const dataportfolio = [
         img: "trafficRoute",
         title: "Traffic Route Optimizer: Simulating Efficient Urban Mobility Using Graph Algorithms",
         authors: "Deepansh Gulati",
-        conference: "Pathfinding simulation using Dijkstra and A* algorithms with real-world route scenarios",
-        moreinfo: "/projects/traffic-route-optimizer",
-        project:"https://github.com/NeuralWordsmith/Traffic-Route-Optimizer",
-        code:"coming soon",
+        conference: "A Python-based optimization tool that uses real-time data and graph algorithms to recommend the most efficient routes for traffic flow. Designed for urban planning scenarios, it helps minimize congestion and travel time.",
+        github:"https://github.com/NeuralWordsmith/Traffic-Route-Optimizer",
     },
     {
         img: "cs224s",
-        title: "Beyond Scale: Analyzing ASR Model Performance in Code-Switching Data",
-        authors: "Seonghee Lee, Yiling Zhao, Michela Marchini",
-        conference: "CS 224S Speech Language Processing (A+)",
-        doi:"https://drive.google.com/file/d/1iVEVgdgw4sbKr1InlFf43_tFV8i-9Oi0/view",
+        title: "NLP Corpus Manager",
+        authors: "Deepansh Gulati",
+        conference: "A command-line interface tool built to streamline corpus management tasks for Natural Language Processing workflows. It supports document insertion, keyword search, frequency analysis, and text loading from files.",
+        github:"https://github.com/NeuralWordsmith/NLP-Corpus-Manager",
     }
     ,
     {
         img: "teachyou",
-        title: "Teach AI How to Code: Using Large Language Models as Teachable Agents for Programming Education",
-        authors: "Hyoungwook Jin, Seonghee Lee, Hyungyu Shin, Juho Kim",
-        conference: "2024 19th ACM/IEEE International Conference on Human-Computer Interaction (CHI)",
-        doi:"https://doi.org/10.1145/3613904.3642349",
-        video:"https://www.youtube.com/watch?v=MEtcA6GjfAg",
-        project:"https://jhw123.github.io/project/teachyou",
+        title: "Text Processing CLI Tool",
+        authors: "Deepansh Gulati",
+        conference: "A foundational Python utility that performs essential text analysis operations like word count, sentence count, keyword detection, and case normalization. Designed with a focus on clean CLI interaction and modular structure.",
+        github:"https://github.com/NeuralWordsmith/Text-Processing-CLI-Tool",
     }
     ,
     {
         img: "multi",
-        title: "MultiSum: A Large Dataset for Multimodal Video Temporal Segmentation and Summarization",
-        authors: "Jielin Qiu, Claire Jin, Seong hee Lee, Ding Zhao, 2023 18th ACM/IEEE International Conference on Machine Learning (ICML), 2023",
-        link: "https://drive.google.com/file/d/12hRGbsry94zcJsU2V1_bVWFulYbyOi0c/view?usp=sharing",
+        title: "Customer Churn Predictor",
+        authors: "Deepansh Gulati",
+        conference: "A machine learning model that analyzes customer data to predict churn likelihood using classification algorithms. Features exploratory data analysis, feature engineering, and model evaluation techniques.",
+        github:"https://github.com/NeuralWordsmith/customer-churn-predictor",
     }
 ];
 
@@ -167,41 +164,7 @@ const projectportfolio = [
         github: "https://github.com/shljessie/RedditSurvey",
         website: "http://reddit.esrg.stanford.edu/"
     },
-    {
-        title: "Mecerdez Benz Non-Verbal AI Interaction - Cochl.AI",
-        description: "Full Stack development of Non-verbal AI Interaction prototype in Mercedes Benz Cars using Cochl Socket API",
-        github: "https://github.com/shljessie/MBUX",
-    },
-    {
-        title: "MyCourseIndex - Cornell Data Science",
-        description: "an essential search engine for Cornell students and their courses with the initial goal to improve the Piazza search user experience. This search gathers all information from Piazza posts to Textbook and Notes Resources and returns valid results for the student to utilize",
-        github: "https://github.com/oscarso2000/MyCourseIndex",
-    },
-    // {
-    //     title: "IEUM Bridging Transportation and Humans",
-    //     description: "Best Student Paper Award at Human Robot Interaction Conference (ACM/IEEE) HRI 2022",
-    //     paper: "https://ieeexplore.ieee.org/abstract/document/9889531",
-    // },
-    {
-        title: "Eternal Testimony",
-        description: "As of Jun 2020, there are only 17 survivors of the Japanese military comfort women. We are initiating the '영원한 증언 Eternal Testimony' project, a novel way to preserve our history for all perpetuity in a vivid and memorable way.",
-        website: "https://www.creative-computing.org/post/eternal-testimony-2018-2020",
-    },
-    {
-        title: "The Last 100 meter Problem: Passenger Interaction in Autonomous Vehicles",
-        description: "A Gestural Interaction for Passenger Interaction in Autonomous Vehicles",
-        paper: "https://yw6524.wixsite.com/carat",
-    },
-    // {
-    //     title: "Algorithmic Awareness on Youtube",
-    //     description: "User Prototying to Explore User Awareness of Youtube Recommendations",
-    //     paper: "http://127.0.0.1:4000/assets/youtube.pdf",
-    // },
-    // {
-    //     title: "Remote Interaction with Embodied EyeTracking Robot",
-    //     description: "We present an open-source, low cost telepresence robot that moves according to a remote user’s head movements and has a display that can be used to display a video of the remote user.",
-    //     paper: "https://drive.google.com/file/d/19x9CiQBZJfIglFcGmhnYhgXXs3ZLQPIj/view",
-    // },
+
 ];
 
 const contactConfig = {

@@ -30,7 +30,7 @@ export const Projects = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h3>👩‍💻 Software Tools & Projects </h3>{" "}
+            <h3>💿 Software & Tools </h3>{" "}
           </Col>
         </Row>
         <div className="">
