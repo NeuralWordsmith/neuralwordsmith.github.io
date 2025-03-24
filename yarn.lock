@@ -4714,6 +4714,11 @@ gh-pages@^6.1.1:
     fs-extra "^11.1.1"
     globby "^6.1.0"
 
+github-markdown-css@^5.8.1:
+  version "5.8.1"
+  resolved "https://registry.npmjs.org/github-markdown-css/-/github-markdown-css-5.8.1.tgz"
+  integrity sha512-8G+PFvqigBQSWLQjyzgpa2ThD9bo7+kDsriUIidGcRhXgmcaAWUIpCZf8DavJgc+xifjbCG+GvMyWr0XMXmc7g==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"
