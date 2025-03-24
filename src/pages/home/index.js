@@ -55,7 +55,7 @@ export const Home = () => {
                 I write code like I design systems: modular, reproducible, and always with observability in mind. If it's not traceable or testable, it's not real. Whether it’s multi-head attention or infrastructure bottlenecks, I enjoy solving problems where abstraction meets execution.
                 </p>
                 <div className="intro_btn-action pb-5">
-                  <a href="https://docs.google.com/document/d/1XbmaukMM6R9yc1CCFBwmVd3LpPyG0Kb0awab1N_Kv0k/edit?usp=sharing">                  
+                  <a href="https://neuralwordsmith.github.io/resume/resume.pdf">
                     <div id="button_h" className="ac_btn btn">
                       Resume
                       <div className="ring one"></div>
