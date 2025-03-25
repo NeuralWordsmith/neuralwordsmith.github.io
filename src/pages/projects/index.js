@@ -2,7 +2,8 @@ import "./style.css";
 
 import { Col, Container, Row } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta, projectportfolio } from "../../content_option";
+import { meta } from "../../content_option";
+import { techstack } from "../../content_option";
 
 import ET from "../../assets/project/ET.png";
 import IEUM from "../../assets/project/IEUM.png";
@@ -28,18 +29,30 @@ export const Projects = () => {
           <title> Projects | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="tech-section">
           <Col lg="8">
             <h3>💿 Softwares & Tools </h3>{" "}
           </Col>
         </Row>
+
+        <div className="tech-section">
+        {techstack.map((section, index) => (
+          <div className="tech-group" key={index}>
+          <p className="tech-title">• {section.category}:</p>
+          <p className="tech-description">{section.items.join(", ")}</p>
+          </div>
+        ))}
+        </div>
+
+
+
         <div className="">
-          {projectportfolio.map((data, i) => {
+        {/*{projectportfolio.map((data, i) => {
             
             return (
               <div key={i} className="researchBox">
                 <div>
-                {/*<img class="img_research" src={imglist[i]} alt="d"></img>*/}
+                {/*<img class="img_research" src={imglist[i]} alt="d"></img>/}
                 </div>
                 <div className="description">
                   <h5>{data.title}</h5>
@@ -58,7 +71,7 @@ export const Projects = () => {
                 </div>
               </div>
             );
-          })}
+          })}*/}
         </div>
       </Container>
     </HelmetProvider>

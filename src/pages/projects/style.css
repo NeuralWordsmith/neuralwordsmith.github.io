@@ -7,9 +7,11 @@
     -webkit-column-gap: 4rem;
 }
 .img_research{
-    border-radius: 0%;
-    width:300px;
-    height:100%;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
 }
 
 .po_item {
@@ -86,4 +88,34 @@
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+
+.tech-section {
+    font-family: 'Marcellus';
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-top: 2rem;
+}
+
+.tech-section h3 {
+    margin-top: 2.5rem;
+}
+
+.tech-group {
+    margin-bottom: 1.5rem;
+}
+
+.tech-title {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 0.3rem;
+    color: var(--text-color);
+}
+
+.tech-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 1rem;
+    color: var(--text-color);
 }

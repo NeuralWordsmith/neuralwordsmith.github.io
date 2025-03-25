@@ -131,7 +131,7 @@ const dataportfolio = [
         github:"https://github.com/NeuralWordsmith/customer-churn-predictor",
     }
 ];
-
+{/*
 const projectportfolio = [
     {
         title: "• Programming Languages:",
@@ -162,6 +162,39 @@ const projectportfolio = [
         description: "GitHub Pages",
     },
 ];
+*/}
+
+export const techstack = [
+    {
+        category: "Programming Languages",
+        items: ["Python", "JavaScript", "Bash"],
+    },
+{
+    category: "AI / ML / NLP",
+    items: ["scikit-learn", "TensorFlow", "PyTorch", "spaCy", "HuggingFace Transformers"],
+},
+{
+    category: "Development Tools",
+    items: ["Kate", "Git & GitHub", "VS Code", "Jupyter Notebook"],
+},
+{
+    category: "Testing & Linting",
+    items: ["pytest", "black", "flake8"],
+},
+{
+    category: "Data Handling",
+    items: ["Pandas", "NumPy", "Matplotlib", "Seaborn", "osmnx"],
+},
+{
+    category: "Documentation & Markdown",
+    items: ["Obsidian", "Markdown", "GitHub README"],
+},
+{
+    category: "Deployment",
+    items: ["GitHub Pages"],
+},
+];
+
 
 const contactConfig = {
     YOUR_EMAIL: "deepansh_gulati@icloud.com",
@@ -191,7 +224,7 @@ export {
     introdata,
     contactConfig,
     socialprofils,
-    projectportfolio,
+    //projectportfolio,
     logotext,
     awards,
 };

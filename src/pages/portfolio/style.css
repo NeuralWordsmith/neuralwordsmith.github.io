@@ -86,3 +86,21 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.tool-group {
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+}
+
+.tool-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.tool-desc {
+    font-size: 1.05rem;
+    margin-left: 1rem;
+    text-indent: -1rem;   /* aligns second line to bullet */
+    padding-left: 1rem;   /* balances text nicely */
+}
